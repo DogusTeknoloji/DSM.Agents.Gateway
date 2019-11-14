@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyVersion>2.0.7257.0</AssemblyVersion>
+    <FileVersion>1.0.7257.0</FileVersion>
+    <Version>2.0.7234.0</Version>
+    <Authors>Dogus Technology DevOps Team</Authors>
+    <Company>Dogus Technology</Company>
+    <Product>DSM Services Gateway Agent</Product>
+    <Description>Gateway Agent Service</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSM.Agents" Version="1.0.7257.3" />
+    <PackageReference Include="DSM.Core" Version="1.0.7257" />
+    <PackageReference Include="DSM.GatewayEngine" Version="2.0.7248.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
